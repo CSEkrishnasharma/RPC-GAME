@@ -30,7 +30,7 @@ const showWinner = (userWin, userChoice , comchoice) =>{
         msg.style.backgroundColor = "green";
     } else {
         console.log("you lose!")
-        msg.innerText = `oops You lose! ${comchoice} beats ${userChoice}`;
+        msg.innerText = `oops You lose:( ${comchoice} beats ${userChoice}`;
         compscore++;
         computerscore.innerText = compscore;
         msg.style.backgroundColor = "#175676";
